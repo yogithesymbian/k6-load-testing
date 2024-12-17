@@ -2,7 +2,7 @@
 
 
 # k6-load-testing
-only for access home page and auth access with codespace github to run it
+only for access home page and auth access with codespace github to run it. for demo access click here ( ongoing ) full & free
 
 ## codespace
 use with github codespace no need to clone
