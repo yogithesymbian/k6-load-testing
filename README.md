@@ -1,3 +1,6 @@
+![CleanShot 2024-12-17 at 3  41 08@2x](https://github.com/user-attachments/assets/24a392ac-a14f-43f9-9d1a-fd297b4d0ee1)
+
+
 # k6-load-testing
 only for access home page and auth access with codespace github to run it
 
