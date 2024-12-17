@@ -21,3 +21,22 @@ k6 version
 ```
 k6 run home-test.js
 ```
+
+### Analyze the Output
+k6 will display real-time results in your terminal:
+
+Example output:
+```
+running (50s), 00/50 VUs, 10000 complete and 0 interrupted iterations
+default ✓ [======================================] 50s  50/50 VUs  0m/s
+
+http_req_duration..........: avg=180ms  min=150ms  med=170ms  max=300ms  
+http_req_failed............: 0.00%   ✓ 0       ✗ 10000
+http_req_sending...........: avg=0.50ms min=0ms   med=0.45ms max=1ms
+http_reqs..................: 10000   200/s
+```
+Key Metrics:
+
+http_req_duration: The average response time (should be low).
+http_req_failed: Percentage of failed requests (should be 0%).
+http_reqs: Total number of HTTP requests made.
